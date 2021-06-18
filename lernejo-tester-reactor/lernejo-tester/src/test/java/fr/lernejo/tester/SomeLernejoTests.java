@@ -1,6 +1,6 @@
-package test.fr.lernejo.tester;
+package fr.lernejo.tester;
 
-import main.fr.lernejo.tester.api.TestMethod;
+import fr.lernejo.tester.api.TestMethod;
 import java.lang.IllegalStateException;
 
 public class SomeLernejoTests {
@@ -11,7 +11,7 @@ public class SomeLernejoTests {
     @TestMethod
     public void ko()
     {
-        throw new java.lang.IllegalStateException();
+        throw new IllegalStateException();
     }
     public void none()
     {
